@@ -1,0 +1,130 @@
+.Weather form {
+  margin: 20px 0 0 30px;
+}
+
+.Weather .container {
+  width: 700px;
+  height: 350px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 0 15px 0 15px;
+  box-shadow: 0px 25px 36px 12px rgba(0, 0, 0, 0.51);
+  text-align: center;
+}
+
+.Weather p {
+  font-size: 12px;
+}
+
+.Weather h3 {
+  font-style: italic;
+  font-size: 25px;
+  margin-top: -15px;
+}
+
+.Weather h1 {
+  margin: 30px 0 0 20px;
+}
+
+.Weather img {
+  height: 110px;
+  width: 130px;
+}
+
+.Weather .currentweather .units {
+  position: relative;
+  font-size: 15px;
+  top: -10px;
+}
+
+.Weather .currentweather .col {
+  margin-bottom: -15px;
+}
+
+.Weather #description {
+  text-transform: capitalize;
+}
+
+.Weather .currentweather #icon {
+  height: 100px;
+  width: 100px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.Weather #conditions p {
+  line-height: normal;
+}
+
+.Weather #location {
+  display: block;
+  margin: 35px 0px 0px 20px;
+  border-radius: 15px;
+  padding: 10px 5px;
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: #a19cff;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
+.Weather #location:hover {
+  background-color: #ec6e4c;
+}
+
+.Weather #location:focus {
+  outline: none !important;
+}
+
+.Weather .currentweather {
+  margin: 30px 50px 0 50px;
+  padding-top: 15px;
+  border-radius: 15px;
+  background-color: #e0e0e0;
+}
+
+.Weather .currentcity {
+  margin-bottom: 20px;
+}
+
+.Weather h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Weather h2 .active {
+  color: #000;
+  cursor: default;
+}
+
+.Weather h2 .active:hover {
+  text-decoration: none;
+}
+
+.Weather .weekweather {
+  padding-top: 10px;
+  border-radius: 15px;
+  background-color: #e0e0e0;
+}
+
+.Weather .weekweather img {
+  height: 50px;
+  width: 50px;
+  margin-top: -10px;
+}
+
+.Weather footer {
+  margin-left: 70px;
+}
+
+.Weather footer p {
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 800px) {
+  .Weather footer {
+    margin-left: 300px;
+  }
+}
