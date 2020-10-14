@@ -22,6 +22,7 @@ export default function Weather() {
                   type="text"
                   className="form-control"
                   placeholder="Search"
+                  autoFocus="on"
                 />
                 <div className="input-group-btn">
                   <button className="btn btn-default" type="submit">
