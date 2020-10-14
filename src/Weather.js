@@ -1,6 +1,7 @@
 import React from "react";
 // import axios from 'axios';
 import "./Weather.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Weather() {
   let weatherData = {
@@ -77,7 +78,7 @@ export default function Weather() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Open-source code
+            Open-source code{" "}
           </a>
           by Karin de Leeuw
         </p>
