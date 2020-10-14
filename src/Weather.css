@@ -121,6 +121,11 @@
 
 .Weather footer p {
   font-size: 15px;
+  margin-top: 20px;
+}
+
+.Weather footer a {
+  color: #ec6e4c;
 }
 
 @media only screen and (min-width: 800px) {
