@@ -73,7 +73,7 @@ export default function Weather() {
       <footer>
         <p>
           <a
-            href="https://github.com/KariinDeLeeuw/wheater-app"
+            href="https://github.com/KariinDeLeeuw/weather-react"
             target="_blank"
             rel="noopener noreferrer"
           >
