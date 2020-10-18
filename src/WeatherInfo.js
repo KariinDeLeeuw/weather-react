@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import city from "./images/city.png";
 
 export default function WeatherInfo(props) {
   return (
@@ -14,7 +15,7 @@ export default function WeatherInfo(props) {
   </div>
   <div className="col">
     <h2>
-      {props.data.temperature}
+      {props.data.temperature}{" "}
       <span className="units">
         <a href="/">°C</a> | <a href="/">°F</a>
       </span>
@@ -40,8 +41,10 @@ export default function WeatherInfo(props) {
   <div className="col-3">
     <button id="location">Your location</button>
   </div>
-  <div className="col-5"></div>
-  <div className="col-4"></div>
+  <div className="col-5" id="currentCity"><h1>{props.data.city}</h1></div>
+          <div className="col-4">
+            <img src={city}  alt="Urban city" />
+          </div>
 </div>
 </div>
 </div>
