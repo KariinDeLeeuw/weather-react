@@ -38,19 +38,19 @@
   top: -10px;
 }
 
-.Weather .currentweather .col {
+/* .Weather .currentweather .col {
   margin-bottom: -15px;
-}
+} */
 
 .Weather #description {
   text-transform: capitalize;
 }
 
-.Weather .currentweather #icon {
-  height: 100px;
-  width: 100px;
-  margin-top: -10px;
-  margin-left: -10px;
+.Weather .currentweather canvas {
+  /* height: 80px;
+  width: 80px; */
+  margin-top: 3px;
+  margin-left: -20px;
 }
 
 .Weather #conditions p {
