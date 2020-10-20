@@ -20,3 +20,16 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+footer {
+  margin: auto 195px;
+}
+
+footer p {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #ec6e4c;
+}

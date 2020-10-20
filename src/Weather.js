@@ -63,19 +63,6 @@ function handleCityChange(event) {
             </div>
             <WeatherInfo data={weatherData}/>
         </div>
-        
-        <footer>
-        <p>
-        <a
-          href="https://github.com/KariinDeLeeuw/weather-react"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Open-source code{" "}
-        </a>
-        by Karin de Leeuw
-        </p>
-        </footer>
         </div>
       );
   } else {
