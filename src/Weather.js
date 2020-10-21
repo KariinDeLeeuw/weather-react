@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from 'axios';
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 import "./Weather.css";
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -62,6 +63,7 @@ function handleCityChange(event) {
               </div>
             </div>
             <WeatherInfo data={weatherData}/>
+            <WeatherForecast city={weatherData.city} />
         </div>
         </div>
       );

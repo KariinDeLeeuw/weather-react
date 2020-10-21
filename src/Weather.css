@@ -4,7 +4,7 @@
 
 .Weather .container {
   width: 700px;
-  height: 350px;
+  height: 500px;
   position: relative;
   background-color: #fff;
   border-radius: 15px;
@@ -75,16 +75,4 @@
 
 .Weather .currentcity {
   margin-bottom: 20px;
-}
-
-.Weather .weekweather {
-  padding-top: 10px;
-  border-radius: 15px;
-  background-color: #e0e0e0;
-}
-
-.Weather .weekweather img {
-  height: 50px;
-  width: 50px;
-  margin-top: -10px;
 }
