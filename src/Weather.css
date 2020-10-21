@@ -36,19 +36,14 @@
   position: relative;
   font-size: 15px;
   top: -10px;
+  color: #ec6e4c;
 }
-
-/* .Weather .currentweather .col {
-  margin-bottom: -15px;
-} */
 
 .Weather #description {
   text-transform: capitalize;
 }
 
 .Weather .currentweather canvas {
-  /* height: 80px;
-  width: 80px; */
   margin-top: 3px;
   margin-left: -20px;
 }
@@ -95,7 +90,7 @@
 }
 
 .Weather h2 .active {
-  color: #000;
+  color: #ec6e4c;
   cursor: default;
 }
 

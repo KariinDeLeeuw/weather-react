@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import city from "./images/city.png";
 import WeatherIcon from "./WeatherIcon";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
   return (
@@ -15,12 +16,7 @@ export default function WeatherInfo(props) {
     </h3>
   </div>
   <div className="col">
-    <h2>
-      {props.data.temperature}{" "}
-      <span className="units">
-        <a href="/">°C</a> | <a href="/">°F</a>
-      </span>
-    </h2>
+    <WeatherTemperature celcius={props.data.temperature} />
     <h2>
       <i className="fas fa-temperature-high"></i>
     </h2>
