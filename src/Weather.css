@@ -32,13 +32,6 @@
   width: 130px;
 }
 
-.Weather .currentweather .units {
-  position: relative;
-  font-size: 15px;
-  top: -10px;
-  color: #ec6e4c;
-}
-
 .Weather #description {
   text-transform: capitalize;
 }
@@ -82,20 +75,6 @@
 
 .Weather .currentcity {
   margin-bottom: 20px;
-}
-
-.Weather h2 {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.Weather h2 .active {
-  color: #ec6e4c;
-  cursor: default;
-}
-
-.Weather h2 .active:hover {
-  text-decoration: none;
 }
 
 .Weather .weekweather {
