@@ -52,14 +52,14 @@
   padding: 10px 5px;
   border: none;
   color: rgb(0, 0, 0);
-  background-color: #a19cff;
+  background-color: #ec6e4c;
   transition-duration: 0.4s;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
 }
 
 .Weather #location:hover {
-  background-color: #ec6e4c;
+  background-color: #a19cff;
 }
 
 .Weather #location:focus {
