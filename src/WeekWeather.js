@@ -10,7 +10,6 @@ export default function WeekWeather(props) {
 
   function temperature() {
     let temperature = Math.round(props.data.main.temp);
-
     return `${temperature}°C`;
   }
 
