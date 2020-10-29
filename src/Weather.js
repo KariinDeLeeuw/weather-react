@@ -38,6 +38,7 @@ function handleCityChange(event) {
   setCity(event.target.value);
 }
 
+
   if (weatherData.ready) {
       return (
         <div className="Weather">

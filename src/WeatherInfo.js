@@ -5,6 +5,7 @@ import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
 export default function WeatherInfo(props) {
+
   return (
   <div className="WeatherInfo">  
        <div className="currentweather">
@@ -33,11 +34,11 @@ export default function WeatherInfo(props) {
 </div>
 <div className="currentcity">
 <div className="row">
-  <div className="col-3">
+  {/* <div className="col-3">
     <button id="location">Your location</button>
-  </div>
-  <div className="col-5" id="currentCity"><h1>{props.data.city}</h1></div>
-          <div className="col-4">
+  </div> */}
+  <div className="col-6" id="currentCity"><h1>{props.data.city}</h1></div>
+          <div className="col-5">
             <img src={city}  alt="Urban city" />
           </div>
 </div>
